@@ -4,54 +4,58 @@
     {
       "id": "1",
       "title": "a title",
-      "views": 100
+      "views": 100,
+      "isDeleted": false
     },
     {
       "id": "2",
       "title": "another title",
-      "views": 200
+      "views": 200,
+      "isDeleted": false
     },
     {
       "id": "3",
-      "title": "haha",
-      "views": "3000"
+      "title": "deleted post example",
+      "views": 50,
+      "isDeleted": false
     },
     {
-      "id": "7",
-      "title": "kem10",
-      "views": "1000"
-    },
-    {
-      "id": "6",
-      "title": "h50",
-      "views": "200"
-    },
-    {
-      "id": "8",
-      "title": "nghiep",
-      "views": "700"
-    },
-    {
-      "id": "15",
-      "title": "Mu",
-      "views": "99"
-    },
-    {
-      "title": "MC",
-      "views": "90",
-      "id": "4"
+      "id": "4",
+      "title": "title1",
+      "views": "300",
+      "isDeleted": false
     }
   ],
   "comments": [
     {
       "id": "1",
       "text": "a comment about post 1",
-      "postId": "1"
+      "postId": "1",
+      "isDeleted": false
     },
     {
       "id": "2",
       "text": "another comment about post 1",
-      "postId": "1"
+      "postId": "1",
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "text": "deleted comment example",
+      "postId": "1",
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "text": "comment11",
+      "postId": "4",
+      "isDeleted": false
+    },
+    {
+      "id": "5",
+      "text": "comment2",
+      "postId": "4",
+      "isDeleted": false
     }
   ],
   "profile": {
